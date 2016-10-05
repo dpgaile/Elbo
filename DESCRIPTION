@@ -1,0 +1,14 @@
+Package: Elbo
+Type: Package
+Title: implements Useful Utilities for my Personal Use
+Version: 0.1.0
+Author@R: person("Daniel", "Gaile",
+    email = "dpgaile@gmail.com",
+    role=c("aut","cre"))
+Description: An amazing package
+Depends:
+    R (>= 3.3.1)
+License: Artistic-2.0
+Encoding: UTF-8
+LazyData: TRUE
+RoxygenNote: 5.0.1
