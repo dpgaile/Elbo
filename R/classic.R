@@ -21,7 +21,7 @@
 
 input_classic <- function(pdata_file, expr_file){
       pdata <- read.csv(pdata_file, row.names=1, check.names=FALSE)
-      exprs <- read.csv(exprs_file, row.names=1, check.names=FALSE)
+      exprs <- read.csv(expr_file, row.names=1, check.names=FALSE)
       merge(pdata,t(exprs), by=0) # by=0: merge using the row names
 }
 
